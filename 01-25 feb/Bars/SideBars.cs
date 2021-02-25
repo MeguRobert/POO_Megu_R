@@ -4,11 +4,11 @@ namespace Bars
 {
     internal class SideBars
     {
-        
 
+        VerBar v;
         public SideBars(int width, int height)
         {
-            VerBar v;
+            
             for (int i = 0; i < height; i++)
             {
                 v = new VerBar(1);
